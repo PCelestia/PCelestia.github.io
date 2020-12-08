@@ -1,0 +1,8 @@
+<script>
+   var wooglstr = "dont-endlessly-loop-please";
+   var originalloc = "pcelestia.github.io";
+   var newloc = "autumnblazey.github.io";
+   window.onload = function() {
+      !window.location.href.endsWith(wooglstr) && window.location.replace(window.location.href.replace(originalloc, newloc) + "#" + wooglstr);
+   }
+</script>
